@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AsyncTaskProject</string>
+    <string name="downloading">下载中</string>
+    <string name="download_text">准备下载</string>
+    <string name="click_download">点击下载</string>
+    <string name="download_finish">下载完成</string>
+    <string name="download_fail">下载失败</string>
+</resources>
