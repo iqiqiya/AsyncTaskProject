@@ -55,6 +55,33 @@ public class MainActivity extends AppCompatActivity {
 
         // 初始化UI数据
         setData();
+
+        // 调用封装好的测试
+        DownloadHelper.download(APK_URL, "", new DownloadHelper.OnDownloadListener() {
+            @Override
+            public void onStart() {
+
+            }
+
+            @Override
+            public void onSuccess(int code, File file) {
+
+            }
+
+            @Override
+            public void onFail(int code, File file, String message) {
+
+            }
+
+            @Override
+            public void onProgress(int progress) {
+
+            }
+        });
+
+
+
+
     }
 
     /**
